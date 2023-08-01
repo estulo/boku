@@ -25,11 +25,21 @@
     position: absolute;
     top: 0px;
     left: 0px;
+    transition: left 1.6s, width 1.6s;
 }
 
-.back-panel-1 {
-    width: 0px;
-    transition: width 2s;
+.back-panel-hover {
+    background-color: gray;
+    height: 99%;
+    width: 20%;
+    position: absolute;
+    top: 0px;
+    left: 40%;
+    transition: left 1.6s, width 1.6s;
+}
+
+.back-panel-click {
+    background-color: black;
 }
 
 .front-panel {
@@ -41,13 +51,46 @@
     left: 0px;
 }
 
+.front-panel-hover {
+    background-color: white;   
+    height: 95%;
+    width: 50%;
+    position: absolute;
+    top: 0px;
+    left: 25%;
+    transition: left 1.6s, width 1.6s;
+}
+
+.front-panel-click {
+    background-color: gray;   
+}
+
 .move-txt {
+    color: black;
     position: absolute;
     width: 100%;
     height: 100%;
     left: 0px;
     bottom: 0px;
     text-align: center;
+    font-size: large;
+    transition: height 1.6s, font-size 1.6s;
+}
+
+.move-txt-hover {
+    color: black;
+    position: absolute;
+    width: 100%;
+    height: 90%;
+    left: 0px;
+    bottom: 0px;
+    text-align: center;
+    font-size: x-large;
+    transition: height 1.6s, font-size 1.6s;
+}
+
+.move-txt-click {
+    color: white;
 }
 
 
